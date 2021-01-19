@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="Customer.css" />
+<header>
+    <div class="wrapper">
+        <ul class="nav-area">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Cus_transaction.html">Customer</a></li>
+        </ul>
+    </div>
+</header>
+<title>
+    Sparks Cooprative Bank
+</title>
+</head>
+<body>
+    <div class="contain">
+    <h1 class="heading">Welcome to the Sparks Cooprative Bank</h1>
+    </div>
+    
+       <button class="show-modal">SEND MONEY</button>
+    <div class="modal hidden">
+       <button class="close-modal">&times;</button>
+        <form id="money">
+        <h2 class="transf">Transfer Money</h2>
+        <label for="uname"><b>Name</b></label>
+        <input type="text" placeholder="Enter name" name="username" required>
+        <label for="uemail"><b>Email Id</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="umoney"><b>Money</b></label>
+        <input type="text" placeholder="Rupees" name="umoney" required>
+        <button type="button_send" class="send">Send Money</button>
+        <button type="button_cancel" class="cancelbtn">Cancel</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+       <button
+       class="button2" >SEE ALL TRANSACTIONS</button>
+    <script src="customer.js"></script>
+    <table id="customers">
+        <tr>
+            <th>SI.No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Bank Balance(in $)</th>
+        </tr>
+         <tr>
+             <td>1.</td>
+             <td>Rahul</td>
+             <td>rahulvcfs@gmail.com</td>
+             <td>545000</td>
+         </tr>
+         <tr>
+            <td>2.</td>
+            <td>Harris</td>
+            <td>harrusf@gmail.com</td>
+            <td>75430</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Shila</td>
+            <td>shila@gmail.com</td>
+            <td>19000</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Pushpa</td>
+            <td>pushpa23@gmail.com</td>
+            <td>64545</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Gizelle</td>
+            <td>gizwllpereria@gmail.com</td>
+            <td>94557</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Shantala</td>
+            <td>shantala2324@gmail.com</td>
+            <td>75720</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Firoza</td>
+            <td>firoza123@gmail.com</td>
+            <td>47652</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Darmesh</td>
+            <td>darmeshyelwade@gmail.com</td>
+            <td>665200</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Manjunath</td>
+            <td>manju324@gmail.com</td>
+            <td>964402</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>Warron</td>
+            <td>warron@gmail.com</td>
+            <td>50040</td>
+        </tr>
+    </table>
+</body>
+</html>
